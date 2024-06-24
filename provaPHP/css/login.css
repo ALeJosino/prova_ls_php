@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #778899;
+}
+
+.login-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #778899; /* Light Slate Gray - cor principal */
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.login-form label {
+    display: block;
+    color: #708090; /* Slate Gray - cor do texto do rótulo */
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4682B4; /* Steel Blue - borda dos campos */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: #fff;
+    background-color: #778899; /* Light Slate Gray - cor do botão de login */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-login:hover {
+    background-color: #4682B4; /* Steel Blue - cor de hover do botão de login */
+}
